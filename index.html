@@ -1,0 +1,46 @@
+<!--
+This is a simple Secure Recipe Web App Web. This was developed for educational purposes only. 
+Author: oretnom23
+Email: oretnom23@gmail.com 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dynamic Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./font-awesome/js/all.min.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body class="bg-gradient loading">
+    <h1 id="welcom">"My Dynamic Website"</h1><br>
+    <h2><span id="greeting">Good Morning,</span> <span id="name_to_greet" editable>Aidrain</span></h2>
+    <h1 id="clock">9:59:43</h1>
+    <h3 id="date">Monday, February 20, 2023</h3>
+    <h4><b>What's up for today?</b></h4><br><br><br>
+    <h3 id="note">Notes:</h3>
+
+    <p id="todays_up" editable>A dynamic website or dynamic web page contains information that changes, depending on the viewer, the time of the day, the time zone, the viewer's native language, and other factors. <br><br>
+        For example, the Computer Hope home page is a dynamic web page that automatically changes daily to give visitors new content. However, this page you're reading now is a static page that remains the same until it is updated.<br><br>
+        A dynamic website can contain client-side scripting or server-side scripting to generate the changing content or a combination of both scripting types. These sites also include HTML programming for the basic structure. The client-side or server-side scripting takes care of the guts of the site.</p>
+    <div id="btns">
+        <button type="button" id="dawn" class="override_time">Dawn</button>
+        <button type="button" id="morning" class="override_time">Morning</button>
+        <button type="button" id="afternoon" class="override_time">Afternoon</button>
+        <button type="button" id="sunset" class="override_time">Sunset</button>
+        <button type="button" id="evening" class="override_time">Evening</button>
+        <button type="button" id="live" class="override_time">Live</button>
+    </div>
+</body>
+<script src="./js/script.js"></script>
+
+</html>
